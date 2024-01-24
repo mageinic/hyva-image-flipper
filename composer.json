@@ -1,0 +1,30 @@
+{
+    "name": "mageinic/hyva-image-flipper",
+    "description": "Hyva Image Flipper For by MageINIC, Image Flipper provides effortless configuration through user-friendly settings, allowing you to choose from a variety of captivating flip effects like horizontal, vertical, and rotational flips. This extension seamlessly integrates with your store's theme, ensuring a cohesive design.",
+    "require": {
+        "php": "^8.0",
+        "hyva-themes/magento2-compat-module-fallback": "*",
+        "mageinic/image-flipper": "1.0.*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "MageINIC",
+            "email": "support@mageinic.com",
+            "homepage": "https://www.mageinic.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hyva\\MageINICImageFlipper\\": ""
+        }
+    }
+}
